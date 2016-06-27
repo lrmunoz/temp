@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+
+    <style>
+        .item.tag {
+            display: inline-block;
+            color: #e36307;
+            background: white;
+            border: 1px solid #e36307;
+            margin: 5px 10px 5px 0;
+            cursor: pointer;
+            border-radius: 0;
+            padding: 5px 15px;
+        }
+
+        .item.tag span::after {
+            display: inline-block;
+            margin-left: 10px;
+            margin-right: -5px;
+            content: url(close-orange.svg);
+            width: 10px;
+            height: 10px;
+            position: relative;
+            top: 1px;
+        }
+    </style>
+    <title>Test SVG background icons</title>
+</head>
+
+<body>
+<span class="tag item tag">Label<span id="cross"/></span>
+</body>
+</html>
